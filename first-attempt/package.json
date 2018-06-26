@@ -1,0 +1,33 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "A first attempt at a Webpack based project.",
+  "main": "serve.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serializator/learning-webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Julian v.d Berkmortel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Serializator/learning-webpack/issues"
+  },
+  "homepage": "https://github.com/Serializator/learning-webpack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
