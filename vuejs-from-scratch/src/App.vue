@@ -11,12 +11,10 @@
 </template>
 
 <script>
-    module.exports = {
-        data: function() {
-            return {
-                message: 'Hello, World!'
-            }
-        }
+    export default {
+        data: () => ({
+            message: 'Hello, World!'
+        })
     }
 </script>
 
